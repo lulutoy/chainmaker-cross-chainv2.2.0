@@ -1,0 +1,81 @@
+
+在chain2上部署事务合约（v2.2.1版本已经内置事务合约，只需要部署业务合约了）
+./cmc client contract user create \
+--contract-name=TransactionStable \
+--runtime-type=GASM \
+--byte-code-path=./testdata/transaction-wasm-demo/transaction.wasm \
+--version=1.0 \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk2.yml \
+--admin-key-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org1.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org2.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org3.chainmaker.org/user/admin1/admin1.tls.key \
+--admin-crt-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org1.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org2.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org3.chainmaker.org/user/admin1/admin1.tls.crt \
+--sync-result=true \
+--params="{}"
+
+部署业务合约
+./cmc client contract user create \
+--contract-name=balance_003 \
+--runtime-type=GASM \
+--byte-code-path=./testdata/balance-wasm-demo/balance.wasm \
+--version=1.0 \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk2.yml \
+--admin-key-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org1.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org2.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org3.chainmaker.org/user/admin1/admin1.tls.key \
+--admin-crt-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org1.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org2.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_129/wx-org3.chainmaker.org/user/admin1/admin1.tls.crt \
+--sync-result=true \
+--params="{}"
+
+-------------------------------------------
+
+在chain1上部署合约（v2.2.1版本已经内置事务合约，只需要部署业务合约了）
+./cmc client contract user create \
+--contract-name=TransactionStable \
+--runtime-type=GASM \
+--byte-code-path=./testdata/transaction-wasm-demo/transaction.wasm \
+--version=1.0 \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk1.yml \
+--admin-key-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org1.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org2.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org3.chainmaker.org/user/admin1/admin1.tls.key \
+--admin-crt-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org1.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org2.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org3.chainmaker.org/user/admin1/admin1.tls.crt \
+--sync-result=true \
+--params="{}"
+
+部署业务合约
+./cmc client contract user create \
+--contract-name=balance_002 \
+--runtime-type=GASM \
+--byte-code-path=./testdata/balance-wasm-demo/balance.wasm \
+--version=1.0 \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk1.yml \
+--admin-key-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org1.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org2.chainmaker.org/user/admin1/admin1.tls.key,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org3.chainmaker.org/user/admin1/admin1.tls.key \
+--admin-crt-file-paths=/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org1.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org2.chainmaker.org/user/admin1/admin1.tls.crt,/home/experiment/cross-chain/release/config/chainmaker/crypto-config_128/wx-org3.chainmaker.org/user/admin1/admin1.tls.crt \
+--sync-result=true \
+--params="{}"
+
+调用合约中的方法
+./cmc client contract user invoke \
+--contract-name=balance_002 \
+--method=Plus \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk2.yml \
+--params="{\"number\":\"1\"}" \
+--sync-result=true
+
+./cmc client contract user invoke \
+--contract-name=balance_002 \
+--method=Show \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk2.yml \
+--params="{}" \
+--sync-result=true
+
+./cmc client contract user invoke \
+--contract-name=balance_002 \
+--method=Show \
+--sdk-conf-path=/home/experiment/cross-chain/release/config/chainmaker/chainmaker_sdk1.yml \
+--params="{}" \
+--sync-result=true
+
+
+1. 在cli目录下，输入go build -o cross-chain-sdk-cli
+生成一个名称为cross-chain-sdk-cli的可执行文件
+2. ./cross-chain-sdk-cli deliver -c /home/experiment/cross-chain/release/config/chainmaker/cross_chain_sdk.yml -u http://192.168.30.128:8080 --params /home/experiment/cross-chain/release/config/chainmaker/cross_chain_params.yml
+返回一个crossID 7430e770844846708e596d0ad18808c7
+3. ./cross-chain-sdk-cli show -u http://192.168.30.128:8080 --crossID "7430e770844846708e596d0ad18808c7"
+返回 {"cross_id":"7430e770844846708e596d0ad18808c7","msg":"cross chain success","tx_responses":[{"chain_id":"chain1","tx_key":"ec3c08457b204c898069113f79b5df274eecd968bf774787a4afefba71b71e4f","block_height":52,"index":-1},
+{"chain_id":"chain2","tx_key":"ed07b1c98ec5458cb9b81a08d56d17f667960f5357634332b7567853fcf5ff0b","block_height":28,"index":-1}]}

@@ -1,0 +1,11 @@
+.idea
+tools/sdk/testdata
+contract/.DS_Store
+module/log
+module/storage
+release*/
+docs/coverage/*.out
+docs/ci/*.out
+.DS_Store
+contract/fabric/fabcar/vendor
+contract/fabric/transaction_contract/vendor

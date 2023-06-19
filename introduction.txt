@@ -1,0 +1,23 @@
+1 使用环境
+使用命令cat /etc/redhat-release查看虚拟机使用中的系统 CentOS Linux release 7.9.2009 (Core)
+2 这里使用的是两台虚拟机（ip地址分别是192.168.30.128和192.168.30.129）；一个虚拟机部署一条长安链(这里使用源码来部署长安链)，分别为chain1和chain2
+3 长安链链版本v2.2.1 git clone -b v2.2.1 https://git.chainmaker.org.cn/chainmaker/chainmaker-go.git
+4 长安链证书生成工具源码 git clone -b v2.2.0 https://git.chainmaker.org.cn/chainmaker/chainmaker-cryptogen.git
+5 由于不同虚拟机中的端口和windows主机中的端口是共享的，因此，两条链使用的端口不能有冲突，这里chain1中节点的端口使用的是11301~11304 12301~12304；chain2中节点的端口使用的是21301~21304 22301~22304
+6 由于使用源码来部署长安链时，链默认的链Id均为chain1,因此，需要在配置文件中修改其中一条链Id为chain2(由于使用了四个节点，需要分别修改四个chainmaker.yml和bc1.yml的chainId)
+7 cross-chain跨链代理服务源码下载地址 git --recursive clone https://git.chainmaker.org.cn/chainmaker/chainmaker-cross.git
+8 进入项目主路径中的main目录，先执行 go mod tidy 命令 再执行 ./install.sh
+9 执行第8步后，会得到一个 release 目录， 进入 release 目录，对 config 目录中的 cross_chain.yml进行配置，再根据这个cross_chain.yml中的指定的chainmaker_sdk1.yml,
+chainmaker_sdk2.yml,chainmaker_spv.yml进行对应的配置
+10 crypto-config_128，crypto-config_129分别是链chain1，链chain2中节点对应的证书文件（这里是利用./prepare.sh 4 1 --> ./build_release.sh --> ./cluster_quick_start.sh命令启动链的时候使用的节点证书）
+11 完成第9，10步之后，切换到release/bin目录,执行./start.sh 启动跨链代理
+12 ps -ef | grep cross_chain | grep -v grep | awk '{print $2}' 命令查看是否跨链代理启动成功
+13 查看在bin目录的logs目录中default.log，看是否有报错信息，如果报错，检查配置文件中哪里有问题
+14 使用跨链sdk的两种方法（选择其中一种即可）
+    14.1 方法1 切换到目录tools/sdk/cmd/cli，紧接着根据method_of_use文件来进行接下来的操作
+    14.2 方法2 切换到目录tools/sdk/main目录，执行命令 go run cross_chain_sdk.go
+15 使用cmc命令调用合约中的Show方法，
+一次完成的跨链操作完成后，预期chain1（第一条链）中账号的token变为999，chain2中账号的token变为1001，这两个值的结果可以通过分别调用两个业务合约的Show()方法查询实现。
+若查询结果与上述一致，则表明跨链服务成功，若不一致则表明跨链服务部署失败，需要查看日志以确认失败原因
+
+

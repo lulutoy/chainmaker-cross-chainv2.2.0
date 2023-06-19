@@ -1,0 +1,295 @@
+2023-03-18 15:43:15.282	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [1] adapters to connect...
+2023-03-18 15:43:15.283	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 15:43:15.283	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 15:52:49.470	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [1] adapters to connect...
+2023-03-18 15:52:49.470	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 15:52:49.470	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 15:57:12.353	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [1] adapters to connect...
+2023-03-18 15:57:12.353	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 15:57:12.353	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:01:03.951	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [1] adapters to connect...
+2023-03-18 16:01:03.951	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:01:03.951	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:03:03.868	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:03:03.868	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:03:03.869	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:03:03.869	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:03:03.869	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:09:30.366	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:09:30.367	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:09:30.367	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:09:30.367	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:09:30.367	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:10:51.723	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:10:51.723	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:10:51.723	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:10:51.723	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:10:51.723	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:13:31.180	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:13:31.180	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:13:31.180	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:13:31.180	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:13:31.180	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:15:39.408	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:15:39.409	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:15:39.409	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:15:39.409	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:15:39.409	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:18:03.769	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:18:03.769	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:18:03.769	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:18:03.769	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:18:03.769	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:23:11.706	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:23:11.706	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:23:11.706	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk1.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk1.yml: no such file or directory]
+2023-03-18 16:23:11.706	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:23:11.706	[ERROR]	[ADAPTER]	adapter/adapter_factory.go:38	adapter config [config/chainmaker_sdk2.yml] create adapter error:[read sdk config file failed, init config failed, Load sdk config failed, open config/chainmaker_sdk2.yml: no such file or directory]
+2023-03-18 16:25:21.563	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:25:21.564	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:25:21.565	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain01]
+2023-03-18 16:25:21.565	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:25:21.566	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain02]
+2023-03-18 16:26:41.865	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:26:41.865	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:26:41.867	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain01]
+2023-03-18 16:26:41.868	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:26:41.870	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain02]
+2023-03-18 16:26:41.877	[INFO]	[NET]	net_libp2p/node.go:140	channel start listen /ip4/192.168.30.128/tcp/12301/p2p/QmXUz9Yfiuwdc3pQi6H7YY1MsPuNQVBnmSEkGoVWeMqaWc
+
+2023-03-18 16:26:42.380	[INFO]	[ROUTER]	router/router_factory.go:43	connect [/ip4/192.168.30.128/tcp/11301/p2p/QmTxTicKbAuByULZUdr4tYZP17t6JitDd2No7DmYuEn6HD] established
+2023-03-18 16:26:42.388	[INFO]	[STORAGE]	kvdb/state_kvdb.go:175	the value is not storage for UF/CROSS
+2023-03-18 16:26:42.388	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:934	No cross event recovery
+2023-03-18 16:26:42.389	[ERROR]	[WEB_LISTENER]	web_listener/web_listener.go:70	Web Server Listen:listen tcp 192.168.30.128:8080: bind: address already in use
+2023-03-18 16:26:52.389	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:26:52.389	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:26:52.390	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:26:52.390	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:02.390	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:27:02.390	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:02.390	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:27:02.390	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:27:12.391	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:27:12.391	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:27:12.392	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:12.392	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:27:22.392	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:27:22.392	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:22.392	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:27:22.394	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:27:32.393	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:27:32.393	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:27:32.393	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:32.395	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:27:42.394	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:42.395	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:27:42.395	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:27:42.396	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:27:52.396	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:27:52.396	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:27:52.396	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:27:52.397	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:28:02.397	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:28:02.397	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:28:02.397	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:28:02.398	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:28:12.398	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:28:12.398	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:28:12.399	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:28:12.399	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:28:22.399	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:28:22.399	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:28:22.399	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:28:22.399	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:28:32.399	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:28:32.400	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:28:32.400	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:28:32.400	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:28:42.401	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:28:42.401	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:28:42.401	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:28:42.401	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:28:52.402	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:28:52.402	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:28:52.403	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:28:52.403	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:02.404	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:02.404	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:29:02.404	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:29:02.404	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:29:12.404	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:12.404	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:29:12.404	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:29:12.404	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:29:22.405	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:29:22.405	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:22.405	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:29:22.405	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:29:32.406	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:29:32.407	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:29:32.407	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:32.407	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:29:42.408	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:29:42.409	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:29:42.409	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:29:42.409	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:52.409	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:29:52.410	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:29:52.410	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:29:52.410	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:29:59.353	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:183	Module transaction-manager stopped
+2023-03-18 16:29:59.353	[INFO]	[STORAGE]	leveldb/leveldb_provider.go:132	Module storage stopped
+2023-03-18 16:29:59.353	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:163	Module channel-listener stopped
+2023-03-18 16:29:59.353	[INFO]	[WEB_LISTENER]	web_listener/web_listener.go:140	Module web-listener stopped
+2023-03-18 16:29:59.353	[INFO]	[CLI]	cmd/cli_start.go:63	All is stopped!
+2023-03-18 16:30:19.448	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 16:30:19.448	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 16:30:19.450	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain01]
+2023-03-18 16:30:19.450	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 16:30:19.451	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain02]
+2023-03-18 16:30:19.461	[INFO]	[NET]	net_libp2p/node.go:140	channel start listen /ip4/192.168.30.128/tcp/12301/p2p/QmXUz9Yfiuwdc3pQi6H7YY1MsPuNQVBnmSEkGoVWeMqaWc
+
+2023-03-18 16:30:20.023	[INFO]	[ROUTER]	router/router_factory.go:43	connect [/ip4/192.168.30.128/tcp/11301/p2p/QmTxTicKbAuByULZUdr4tYZP17t6JitDd2No7DmYuEn6HD] established
+2023-03-18 16:30:20.038	[INFO]	[STORAGE]	kvdb/state_kvdb.go:175	the value is not storage for UF/CROSS
+2023-03-18 16:30:20.039	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:934	No cross event recovery
+2023-03-18 16:30:20.039	[ERROR]	[WEB_LISTENER]	web_listener/web_listener.go:70	Web Server Listen:listen tcp 192.168.30.128:8080: bind: address already in use
+2023-03-18 16:30:30.039	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:30:30.039	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:30:30.039	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:30:30.039	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:30:40.039	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:30:40.039	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:30:40.039	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:30:40.040	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:30:50.041	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:30:50.041	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:30:50.041	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:30:50.041	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:00.041	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:31:00.041	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:31:00.042	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:00.042	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:31:10.041	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:31:10.042	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:10.042	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:31:10.042	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:31:20.042	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:31:20.043	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:31:20.043	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:20.043	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:31:30.043	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:31:30.043	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:31:30.043	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:31:30.043	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:40.044	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:40.045	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:31:40.045	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:31:40.045	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:31:50.046	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:31:50.046	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:31:50.046	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:31:50.046	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:00.047	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:00.047	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:32:00.047	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:32:00.047	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:32:10.048	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:32:10.049	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:10.049	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:32:10.049	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:32:20.049	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:32:20.050	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:32:20.050	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:20.050	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:32:30.050	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:32:30.050	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:32:30.050	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:32:30.051	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:40.051	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:40.052	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:32:40.052	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:32:40.052	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:32:50.053	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:32:50.053	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:32:50.053	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:32:50.053	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:00.053	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:33:00.053	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:00.053	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:33:00.054	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:33:10.054	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:33:10.054	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:33:10.054	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:33:10.054	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:20.054	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:33:20.054	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:33:20.054	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:20.054	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:33:30.055	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:33:30.056	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:33:30.056	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:33:30.056	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:40.057	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:40.057	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:33:40.057	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:33:40.057	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:33:50.058	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:33:50.058	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:33:50.058	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:33:50.059	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:34:00.060	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:34:00.060	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:34:00.060	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:34:00.060	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:34:10.061	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:34:10.062	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:34:10.062	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:34:10.062	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:34:20.062	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:34:20.062	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:34:20.063	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:34:20.063	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:34:30.063	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 16:34:30.063	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 16:34:30.064	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 16:34:30.064	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 16:34:31.801	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:183	Module transaction-manager stopped
+2023-03-18 16:34:31.801	[INFO]	[STORAGE]	leveldb/leveldb_provider.go:132	Module storage stopped
+2023-03-18 16:34:31.801	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:163	Module channel-listener stopped
+2023-03-18 16:34:31.801	[INFO]	[WEB_LISTENER]	web_listener/web_listener.go:140	Module web-listener stopped
+2023-03-18 16:34:31.801	[INFO]	[CLI]	cmd/cli_start.go:63	All is stopped!
+2023-03-18 17:17:24.821	[INFO]	[ADAPTER]	adapter/adapter_factory.go:31	get [2] adapters to connect...
+2023-03-18 17:17:24.822	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain01]
+2023-03-18 17:17:24.823	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain01]
+2023-03-18 17:17:24.823	[INFO]	[ADAPTER]	adapter/adapter_factory.go:48	create chainmaker adapter, chain id: [chain02]
+2023-03-18 17:17:24.824	[INFO]	[ADAPTER]	adapter/adapter_dispatcher.go:46	register adapter for chain[chain02]
+2023-03-18 17:17:24.833	[INFO]	[NET]	net_libp2p/node.go:140	channel start listen /ip4/192.168.30.128/tcp/12301/p2p/QmXUz9Yfiuwdc3pQi6H7YY1MsPuNQVBnmSEkGoVWeMqaWc
+
+2023-03-18 17:17:24.978	[INFO]	[ROUTER]	router/router_factory.go:43	connect [/ip4/192.168.30.128/tcp/11301/p2p/QmTxTicKbAuByULZUdr4tYZP17t6JitDd2No7DmYuEn6HD] established
+2023-03-18 17:17:24.990	[INFO]	[STORAGE]	kvdb/state_kvdb.go:175	the value is not storage for UF/CROSS
+2023-03-18 17:17:24.992	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:934	No cross event recovery
+2023-03-18 17:17:24.991	[ERROR]	[WEB_LISTENER]	web_listener/web_listener.go:70	Web Server Listen:listen tcp 192.168.30.128:8080: bind: address already in use
+2023-03-18 17:17:34.990	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 17:17:34.992	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 17:17:34.992	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 17:17:34.992	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 17:17:44.991	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 17:17:44.993	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 17:17:44.993	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 17:17:44.993	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 17:17:54.992	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 17:17:54.994	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 17:17:54.994	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 17:17:54.994	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 17:18:04.993	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 17:18:04.996	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 17:18:04.996	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 17:18:04.996	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 17:18:14.994	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 17:18:14.997	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 17:18:14.997	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
+2023-03-18 17:18:14.997	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 17:18:24.995	[INFO]	[NET]	channel/net_channel.go:69	net channel is running periodically!
+2023-03-18 17:18:24.999	[INFO]	[TRANSACTION_MGR]	transaction/transaction_manager.go:187	transaction manager is running periodically!
+2023-03-18 17:18:24.999	[INFO]	[CHANNEL_LISTENER]	channel_listener/channel_listener.go:153	channel listener is running periodically!
+2023-03-18 17:18:24.999	[INFO]	[INNER_LISTENER]	inner_listener/inner_listener.go:68	inner listener is running periodically!
